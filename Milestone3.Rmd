@@ -1,0 +1,27 @@
+---
+title: "Milestone-3"
+author: "David Moberg"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(readr)
+library(readxl)
+```
+
+## Renewable Energy and US Energy Consumption 
+
+##Data Overview
+My data set comes from the following site: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_06_a. Published by the EIA (Energy Information Administration, a division of the Department of Energy), this dataset consists of a highly comprehensive breakdown of US energy use in the past year. More specifically, the two benchmarks it uses are June 2018 and June 2019. It contains COMPREHENSIVE data on power generation by region, state, method of generation, utility scale vs small scale generation, commercial and industrial use, and more. The sheer amount of data here is impressive and also a little ridiculous, to be completely honest. I apologize for the sheer quantity of raw data I have included here (in the raw-data directory), but I included it because I am not certain which of it I will be making use of, about which I will discuss below. The tables that intrigue me the most are Table_1_02_A.xlsx and Table_1_02_B.xlsx, combined with Table_1_11_A.xlsx and Table_1_11_B.xlsx - more on these below.
+
+
+What I Plan to Do:
+  Going forward, I will be trying to pair down this data set/working with the two specific sets of tables above. However, as mentioned, I am not sure which components of the data I will end up working with/what I will need, and I will pare the dataset down from there. Suffice it to say though, I will be attempting to create a US map, likely partitioned by state, that displays a variety of important statistics: I am interested each states' total electricity consumption, and, critically: its per capita/overall renewable energy generation percentage. I was a big fan of Debi Gonzalez's final project - "The Sunshine State Turns Purple" that provided a very comprehensive breakdown of the electoral impact and demographics in Florida during the 2016 Presidential election. It was a very comprehensive, geographically based, graphic
+  
+  
+  The inspiration for this project/the prompt I am currently working off of is another one of my classes: GENED 1094, The Climate Energy Challenge, which is about climate change and human energy consumption. The final project is a policy briefing in which we construct a hypothetical energy system for the US - we create a briefing on possible ways to reconstruct the US power grid in ways that are more ecologically sustainable as well as providing modern US energy needs. This project, for Gov 1005, could pair very well with that, both as a supporting piece/data analysis, as well as helping me personally work on my understanding of the US energy system. If this project turns out as I expect/hope, it will produce a single, comprehensive graphic - a map of the US that provides extremely comprehensive energy data over each state when you hover the mouse over it. Going forwards, I plan to ensure a few things: 1)I will be paring down the dataset I am working with, out of the entire EIA set. 2) Read up on geographic graphics in R - to see if this kind of map is actually feasible/within my means to produce, or if I am biting off more than I can metaphorically chew.
+  
+ 
